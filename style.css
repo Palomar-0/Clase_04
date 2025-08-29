@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #5DC1B9;
+  color: #000000; 
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a{ 
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all ease 2s;
+}
+
+a:hover:after{ 
+  content:"🐾";
+}
+
+#bloque{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem);
+    margin: auto;
+    padding: 2rem; /* CON ESTO EL MARGEN REAL SE LE suamn dos% quedaria en 82% */
+    background: rgba(255, 255, 255, 0.9); /* r, g, b, a (indica 90% de blanco) */
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.amarante-regular{
+  color: #f00;
+  font-size: 60%;
+}
+
+h1{ 
+  font-size: calc(2rem + 5vw); 
+}
+
+h2{
+  font-size: calc(1rem + 2vw);
+}
+
