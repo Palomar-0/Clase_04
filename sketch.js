@@ -9,7 +9,7 @@ function setup() { /* se puede agregar un valor al parentecis */
   canvas.style('z-index','-1');
   background(26, 26, 26);
   noStroke();
-   frameRate (12); /* define la rapidez*/
+   frameRate (80); /* define la rapidez*/
 }
 
 function draw() { /* function draw crea el loop*/
@@ -20,7 +20,8 @@ function draw() { /* function draw crea el loop*/
   x = lerp(x, mouseX, 0.1);
   y = lerp(y, mouseY, 0.1);
   fill("white");
-  textSize(random(100,200));/*podemos generara una variable en el tamaño de el emoji*/
+  textSize(random(100,120));/*podemos generara una variable en el tamaño de el emoji*/
   text("😼",x,y); 
+
 
 } 
