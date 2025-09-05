@@ -1,4 +1,3 @@
-
 var x = 0;
 var y = 0;
 var canvas; /* var: declara variable y podemos asignarles un valor a contener, = significa asignación, == es igual, ! si algo es distinto a otro, const: es una constante, let son variables que se utilizan en un contexto determinado*/
@@ -22,12 +21,6 @@ function draw() { /* function draw crea el loop*/
   y = lerp(y, mouseY, 0.1);
   fill("white");
   textSize(random(100,200));/*podemos generara una variable en el tamaño de el emoji*/
-  text("🐾",x,y); 
+  text("😼",x,y); 
 
 } 
-
-function windowResized() { /* la ventana cambia de tamaño*/
-  resizeCanvas(windowWidth, windowHeight);
-}
-
-

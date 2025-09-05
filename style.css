@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
 
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background: #5DC1B9;
-  color: #000000; 
-  font-family: Helvetica, Arial, sans-serif;
+html, body { 
+margin:0;
+padding:0;
+background:#5DC1B9;
+color: #000000;
+font-family: Helvetica, Arial, sans-serif;
+ }
 
-}
-
-a{ 
-  color: #000000;
-  font-weight: bold;
-  text-decoration: none;
+a {
+color: #000000;
+font-weight: bold;
+text-decoration: none;
 }
 
 a:hover{
-  color: blueviolet;
+  color: #7B1FA2;
   text-decoration: underline;
-  transition: all ease 2s;
+  transition: all ease .5s;
 }
 
-a:hover:after{ 
-  content:"🐾";
+a:hover:after{
+	content:"🐾";
 }
 
-#bloque{
-    position: absolute;
+#bloque {
+
+	position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -38,19 +38,19 @@ a:hover:after{
     border-radius: 1rem;
     box-shadow: 0 0 30px white;
     z-index: 9999;
+
 }
 
-
-.amarante-regular {
-  font-family: "Amarante", serif;
+h1, span.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+span.asimovian-regular {
+	color: #f00;
+	font-size: 80%;
 
-.amarante-regular{
-  color: #f00;
-  font-size: 60%;
 }
 
 h1{ 
@@ -60,4 +60,3 @@ h1{
 h2{
   font-size: calc(1rem + 2vw);
 }
-
